@@ -1,0 +1,1 @@
+This is a new line i am adding and i am trying to add some more lines, Now i aunderstood it will rewrite the file instead of appeding content
