@@ -16,8 +16,3 @@ print("\n\n1. eth0\n2. wlan0\n")
 choice = int(input("Enter the choice: "))
 SelectInterface(choice)
 
-
-   
-    
-    
-

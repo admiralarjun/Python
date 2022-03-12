@@ -23,5 +23,14 @@ print("Even numns in range...")
 evenNums = [num for num in range(0,11) if num % 2 == 0]
 print(evenNums)
 print("- - - - - - - - - -")
+# list of celcius converting into farenheit
+celcius = [0,10,20,56.23]
 
+farenheit = [(temp*(9/5)+32) for temp in celcius]
+print(farenheit)
+ # nested list comprehension
 
+parent = [x**2 for x in [x**2 for x in range (0,11)]]
+print(parent) # we will get powers of 4
+parent1 = [x**4 for x in range(11)] # to verify above
+print(parent1)

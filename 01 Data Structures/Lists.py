@@ -1,4 +1,5 @@
 numList = [1,2,3,4,5,6,7,8,9,10] # list of numbers seperated with comma
+
 x=5
 mixedList = ['string',23,23.45,'o'] # we can put all in list
 StringList=['one','this','not','two']
@@ -24,3 +25,6 @@ List2=[4,5,6]
 List3=[6,7,8]
 Matrix=[List1,List2,List3] # list of lists
 print(Matrix[2][2]) # 2nd index of row and column, works as matrix
+
+List1[0]=5
+print(List1)
